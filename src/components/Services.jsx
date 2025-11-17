@@ -14,19 +14,19 @@ const Services = () => {
      {
       title: "Content markating",
       description:
-        "We turn bold ideas into poweful digital solutions that connect, engage...",
+        "We turn bold ideas into powerful digital solutions that connect, engage and...",
       icon: assets.marketing_icon,
     },
      {
       title: "Content writing",
       description:
-        "We turn bold ideas into poweful digital solutions that connect, engage...",
+        "We turn bold ideas into powerful digital solutions that connect...",
       icon: assets.content_icon,
     },
      {
       title: "Social media",
       description:
-        "We turn bold ideas into poweful digital solutions that connect, engage...",
+        "We turn bold ideas into powerful digital solutions that connect, engage......",
       icon: assets.social_icon,
     },
 

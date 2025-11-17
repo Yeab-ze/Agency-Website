@@ -2,12 +2,9 @@
   <br />
       <img src="public/banner.png" alt="Project Banner">
   <br />
-  <br/>
-  <br/>
-  <br/>
-  <br/>
 
-   <div>
+  
+  <div>
     <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
     <img src="https://img.shields.io/badge/-vite-black?style=for-the-badge&logoColor=white&logo=vite&color=FD366E" alt="vite" />
     <img src="https://img.shields.io/badge/-vscode-black?style=for-the-badge&logoColor=white&logo=vscode&color=blue" alt="vscode" />

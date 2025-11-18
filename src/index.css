@@ -3,9 +3,7 @@
 
 @import "tailwindcss";
 
-@custom-variant dark (&:where(.dark, .dark *)) {
-  /* your styles here */
-}
+@custom-variant dark (&:where(.dark, .dark *));
 
 /* global style */
 * {

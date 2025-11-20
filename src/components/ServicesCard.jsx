@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import { motion } from "motion/react"
 
 const ServicesCard = ({ service, index}) => {
 
@@ -13,7 +14,11 @@ const handleMouseMove = (e) => {
 }
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, delay:index * 0.2 }}
+      viewport={{once: true}}
       className="relative overflow-hidden max-w-lg m-2 sm:m-4 rounded-xl
     border border-gray-200 dark:border-gray-700
     shadow-2xl shadow-gray-100 dark:shadow-white/10"
@@ -46,7 +51,7 @@ const handleMouseMove = (e) => {
             <p className="text-sm mt-2">{service.description}</p>
           </div>
         </div>
-    </div>
+    </motion.div>
   );
 };
 
